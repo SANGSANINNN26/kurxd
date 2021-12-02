@@ -99,9 +99,9 @@ tampilWaktu =jams + ":" + menit + ":" + detik;
 var ase = new Date();
 var waktoonyabro = ase.getHours(); 
 switch(waktoonyabro){
-case 0: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 1: waktoonyabro = `Selamat Malam Owner..🌃`; break;
-case 2: waktoonyabro = `Selamat Malam Owner..🌃`; break;
+case 0: waktoonyabro = `Selamat Malam Owner..Gamteng`; break;
+case 1: waktoonyabro = `Selamat Malam Owner..Gamteng`; break;
+case 2: waktoonyabro = `Selamat Malam Owner..Gamteng`; break;
 case 3: waktoonyabro = `Selamat Pagi Owner..✨`; break;
 case 4: waktoonyabro = `Selamat Pagi Owner..✨`; break; 
 case 5: waktoonyabro = `Selamat Pagi Owner..✨`; break;
