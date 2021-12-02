@@ -1,8 +1,8 @@
 {
 "autoread": false,
-"autoplaymusic": false,
+"autoplaymusic": true,
 "autocomposing": false,
-"autorecording": false,
+"autorecording": true,
 "NamaBot":"Pico", 
 "NomorOwner":"6281267439077", 
 "NomorOwner2":"+62 812-6743-9077", 
