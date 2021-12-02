@@ -697,7 +697,7 @@ options
 
 const daftar1 = `Hai kak  ${pushname} ${tampilUcapan} \n\nSebelum Mengakses Bot Verify Terlebih Dahulu Ya `
 const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak```'
-const daftar3 = [{buttonId: `verify`,buttonText: {displayText: `🗿DAFTAR🗿 `,},type: 1,},]
+const daftar3 = [{buttonId: `verify`,buttonText: {displayText: DAFTARアナ `,},type: 1,},]
 
 const createSerial = (size) => {
 return crypto.randomBytes(size).toString('hex').slice(0, size)
@@ -1351,15 +1351,15 @@ reply('http://youtube.com/c/KurrXd')
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `╭─❒ 「 Bot Info 」 ❒
- _Creator : *KurrXd*
+ _Creator : *Anang*
  _Battery : ${baterai.battery}_
  _Mode : ${publik ? 'Public' : 'Self'}_
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : Kurz Bot Assistan_
+ _Nama Bot : Anang Gamteng_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : KurrXd
+ _Nomor Owner : 6281267439077
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
@@ -1797,7 +1797,7 @@ ${nomor++}.  ${prefix}sharelock [ _teks1|teks2_ ]
 
 
 └─────────────────❒`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© Anang Gamteng_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`store`,buttonText:{displayText:'𝙨𝙩𝙤𝙧𝙚 𝙢𝙚𝙣𝙪'},type:1},{buttonId:`sc`,buttonText:{displayText:'ＳＥＷＡ　ＢＯＴ'},type:1},{buttonId:`catalog`,buttonText:{displayText:'CATALOG'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1921,9 +1921,9 @@ _Dilarang keras_
 -VC BOT
 LANGGAR BANNED
 
-GITHUB OWNER:https://github.com/KurrXd
-YOUTUBE OWNER:https://youtube.com/c/KurrXd`
-sendButLocation(from, `${menu}`, "*_© Kurz Bot Assistan_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+GITHUB OWNER:https://github.com/SANGSANINNN26
+YOUTUBE IG:@ananglimit26
+sendButLocation(from, `${menu}`, "*_© Anang_*", {jpegThumbnail:ofrply1,name:""}, [{buttonId:`allmenu`,buttonText:{displayText:'ALL MENU'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -2004,15 +2004,15 @@ case 'catalog':
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menunya = `╭─❒ 「 Bot Info 」 ❒
- _Creator : *KurrXd*
+ _Creator : *Anany*
  _Battery : ${baterai.battery}_
  _Mode : ${publik ? 'Public' : 'Self'}_
  _Total Hit : ${cmhit.length}_
  _Total menu : 385_
  _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
- _Nama Bot : Kurz Bot Assistan_
+ _Nama Bot : Anang Gamteng_
  _Nama Owner : ${NamaOwner}_
- _Nomor Owner : KurrXd
+ _Nomor Owner : 6281267439077
  _Auto Composing : ${settings.autocomposing}_
  _Auto Recording : ${settings.autorecording}_
 └❏
@@ -2543,7 +2543,7 @@ break
 - QRIS ALL PAYMENT
 
 📥 BERMINAT ? HUBUNGI :
-https://bit.ly/BeliRdpBang ( KurrXd )
+081267439077
 
 
 *MATURSUWUN MONGGO DI LARISI*`
@@ -3514,7 +3514,7 @@ break
 		20K:MANEN
 		SC? https://github.com/KurrXd/kurz`
  buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'BACK➡️'}, type: 1},
+{buttonId: `menu`, buttonText: {displayText: 'BACK'}, type: 1},
 {buttonId:`donasi`,buttonText:{displayText:'DONASI'},type:1},
 {buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}
 ]
